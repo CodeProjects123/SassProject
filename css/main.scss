@@ -127,7 +127,20 @@ main{
             }
         }
         p{
-            font-size: 1.4em;
+            font-size: 1.2em;
+        }
+           
+    }
+    //third section with id used to style the button in pg
+    section#primary2{
+        color: #fff;
+        padding: $padding;
+        text-align: center;
+        //media query
+        @include desktop{
+            grid-area: primary;
+            text-align: left;
+            margin: 22em 0 0 4em;
         }
         //link element
         a{
@@ -145,8 +158,7 @@ main{
             @include desktop{
                 display: inline-block;
                 padding: $padding $padding * 4;
-            }
-
+            }  
         }
     }
 }
