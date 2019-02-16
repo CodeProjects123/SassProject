@@ -19,8 +19,8 @@ body #bg {
 
 @media (min-width: 840px) {
   body #bg {
-    -webkit-clip-path: circle(65.1% at 21% 49%);
-            clip-path: circle(65.1% at 21% 49%);
+    -webkit-clip-path: polygon(100% 0, 100% 0, 37% 100%, 0 100%, 0 0);
+            clip-path: polygon(100% 0, 100% 0, 37% 100%, 0 100%, 0 0);
   }
 }
 
