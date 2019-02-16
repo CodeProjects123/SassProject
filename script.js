@@ -13,7 +13,7 @@ function doSomething(){
         window.open("work.html");
     }
     else if(radioButton3){
-        window.open("school.js");
+        window.open("school.html");
     }
     
 }
