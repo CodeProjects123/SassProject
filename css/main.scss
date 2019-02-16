@@ -3,7 +3,8 @@ $colors: (
     primary: #005DFF,
     primary-light: lighten(#005DFF, 40%),
     primary-dark: darken(#005DFF, 40%),
-    accent: #FFF6BB
+    accent: #F9F871
+    
 );
 //variables
 $padding: 15px;
@@ -38,7 +39,7 @@ body {
         z-index: -1;
         //media query 
         @include desktop{
-            clip-path: polygon(0 0, 75% 0, 55% 100%, 0% 100%);
+            clip-path: circle(65.1% at 21% 49%);
         }
     }
     //nested in body 
@@ -81,7 +82,8 @@ main{
             //list element item
             li{
                 margin-bottom: 10px;
-
+                
+                
                 span input{
                     position: absolute;
                     width: 30px;
@@ -90,6 +92,7 @@ main{
                     border-radius: 50%;
                     margin-right: 10px;
                     cursor: pointer;
+
 
                 }
 
